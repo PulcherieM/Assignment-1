@@ -21,9 +21,9 @@ int main(int argc, char **argv)
 
     /******************ADD YOUR VARIABLES HERE*************************/
 
-    const int CONTEXT_SAVE = 10;
-    const int CONTEXT_RESTORE = 10;
-    const int ISR_ACTIVITY = 90;
+    const int CONTEXT_SAVE = 20;
+    const int CONTEXT_RESTORE = 20;
+    const int ISR_ACTIVITY = 100;
     const int ISR_ADDRESS = 1;
 
     const int IRET = 1;
