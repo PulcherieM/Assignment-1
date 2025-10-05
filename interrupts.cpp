@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 
     const int CONTEXT_SAVE = 10;
     const int CONTEXT_RESTORE = 10;
-    const int ISR_ACTIVITY = 70;
+    const int ISR_ACTIVITY = 80;
     const int ISR_ADDRESS = 1;
 
     const int IRET = 1;
