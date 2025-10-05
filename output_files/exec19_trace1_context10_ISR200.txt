@@ -1,0 +1,71 @@
+0, 75, CPU burst
+75, 1, switch to kernel mode
+76, 10, context saved
+86, 1, find vector 5 in memory position 0x000A
+87, 1, load address 0X048B into the PC
+88, 200, ISR for device 5
+288, 10, context restored
+298, 84, CPU burst
+382, 1, switch to kernel mode
+383, 10, context saved
+393, 1, find vector 5 in memory position 0x000A
+394, 1, load address 0X048B into the PC
+395, 200, ISR for END_IO device 5
+595, 10, context restored
+605, 22, CPU burst
+627, 1, switch to kernel mode
+628, 10, context saved
+638, 1, find vector 10 in memory position 0x0014
+639, 1, load address 0X07B0 into the PC
+640, 200, ISR for device 10
+840, 10, context restored
+850, 80, CPU burst
+930, 1, switch to kernel mode
+931, 10, context saved
+941, 1, find vector 10 in memory position 0x0014
+942, 1, load address 0X07B0 into the PC
+943, 200, ISR for END_IO device 10
+1143, 10, context restored
+1153, 79, CPU burst
+1232, 1, switch to kernel mode
+1233, 10, context saved
+1243, 1, find vector 6 in memory position 0x000C
+1244, 1, load address 0X0639 into the PC
+1245, 200, ISR for device 6
+1445, 10, context restored
+1455, 68, CPU burst
+1523, 1, switch to kernel mode
+1524, 10, context saved
+1534, 1, find vector 6 in memory position 0x000C
+1535, 1, load address 0X0639 into the PC
+1536, 200, ISR for END_IO device 6
+1736, 10, context restored
+1746, 71, CPU burst
+1817, 1, switch to kernel mode
+1818, 10, context saved
+1828, 1, find vector 4 in memory position 0x0008
+1829, 1, load address 0X0292 into the PC
+1830, 200, ISR for device 4
+2030, 10, context restored
+2040, 97, CPU burst
+2137, 1, switch to kernel mode
+2138, 10, context saved
+2148, 1, find vector 4 in memory position 0x0008
+2149, 1, load address 0X0292 into the PC
+2150, 200, ISR for END_IO device 4
+2350, 10, context restored
+2360, 84, CPU burst
+2444, 1, switch to kernel mode
+2445, 10, context saved
+2455, 1, find vector 7 in memory position 0x000E
+2456, 1, load address 0X00BD into the PC
+2457, 200, ISR for device 7
+2657, 10, context restored
+2667, 38, CPU burst
+2705, 1, switch to kernel mode
+2706, 10, context saved
+2716, 1, find vector 7 in memory position 0x000E
+2717, 1, load address 0X00BD into the PC
+2718, 200, ISR for END_IO device 7
+2918, 10, context restored
+2928, 90, CPU burst

@@ -1,0 +1,8 @@
+cat > testcases/trace_6.txt 
+
+SYSCALL, 7
+CPU, 30
+END_IO, 4
+CPU, 50
+END_IO, 7
+CPU, 20
